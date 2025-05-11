@@ -9,21 +9,33 @@ using namespace std;
 
 
 class System {
-    private:
+private:
+    string SessionNumber;
+    string MainFileArr[3];
+    string MainSystemKey;
+    string NumberOfAccounts;
+    string AdminUsername= "admin";
+    string AdminPassword= "admin";
+
     bool running= 1;
     bool loggedIn= 0;
     int ListNum=0;
     string SendArr[200];
-    string MainSystemKey="Batanouny";
 
-    public:
-    void run();
 
+    void readMainFile();
     void AdminMenu();
+    void AdminAddAccount();
+    void AdminRemoveAccount();
+    void AdminShowAllAccounts();
+    void AdminShowLogs();
+    void AdminChangeKey();
+    string generate_random_key();
 
     void MainMenu();
     void LoginMenu();
     void HomeMenu();
+    void AboutMenu();
 
     void CheckBalance();
     void Deposit();
@@ -31,6 +43,10 @@ class System {
     void ChangePIN();
     void Transactions();
     void Logout();
+
+    void LOG(string Text);
+public:
+    void run();
 
 };
 

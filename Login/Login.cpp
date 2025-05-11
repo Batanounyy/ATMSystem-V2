@@ -2,15 +2,14 @@
 #include <fstream>
 #include <string>
 #include "Login.h"
+
 using namespace std;
 
 void Login::login(string accnum, string pin ) {
-
     if (accnum=="" || pin=="") {
         cout << "Please Enter Account Number and PIN" << endl;
-
     }
-    else if (accnum=="oW tn n=" && pin=="oW tn n=") {
+    else if (accnum=="admin" && pin=="admin") {
         cout << "Admin Login" << endl;
         loginstatus = true;
         ListNum=0;

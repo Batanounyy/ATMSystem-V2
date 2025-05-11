@@ -1,3 +1,3 @@
-C:/Users/Gaming PC/CLionProjects/ATMSystem-V2/cmake-build-debug/CMakeFiles/ATMSystem_V2.dir
-C:/Users/Gaming PC/CLionProjects/ATMSystem-V2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Gaming PC/CLionProjects/ATMSystem-V2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/abdel/CSE364 Project/ATMSystem-V2/cmake-build-debug/CMakeFiles/ATMSystem_V2.dir
+C:/Users/abdel/CSE364 Project/ATMSystem-V2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/abdel/CSE364 Project/ATMSystem-V2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
